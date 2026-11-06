@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Márcio Maciel — Advocacia</title>
+    <title>Dr. Márcio Maciel — Advocacia | Mogi das Cruzes - SP</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -12,297 +12,265 @@
                 extend: {
                     colors: {
                         navy: {
-                            DEFAULT: '#0B192C',
-                            dark: '#060E18',
-                            light: '#1E3E62'
+                            DEFAULT: '#08194c',
+                            dark: '#051032',
+                            light: '#112a77'
                         },
                         gold: {
-                            DEFAULT: '#C5A059',
-                            light: '#E3C17E',
-                            dark: '#9E7E3F'
+                            DEFAULT: '#c5a059',
+                            light: '#dfbe7d',
+                            dark: '#9e7e3d'
                         }
                     },
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif']
+                        sans: ['Inter', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
-    <!-- Google Fonts Inter -->
+    <!-- Google Fonts: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold selection:text-white">
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-gold selection:text-white">
 
-    <!-- Top Navigation Bar -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-navy/95 backdrop-blur border-b border-gold/20 text-white shadow-lg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 rounded-lg bg-gold flex items-center justify-center font-bold text-navy text-xl shadow">
-                    M
-                </div>
-                <div>
-                    <span class="font-bold text-lg tracking-wide block leading-tight">Dr. Márcio Maciel</span>
-                    <span class="text-xs text-gold uppercase tracking-widest">Advocacia & Consultoria</span>
-                </div>
+    <!-- Top Notification / Status Bar -->
+    <div class="bg-navy-dark text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-gold/20">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-location-dot text-gold"></i>
+                <span>R. José de Carlo, 181 - Vila Lavinia, Mogi das Cruzes - SP</span>
             </div>
-            <div class="hidden md:flex items-center space-x-6 text-sm text-slate-300">
-                <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-4 h-4 text-gold"></i> Vila Lavínia, Mogi das Cruzes - SP</span>
-                <a href="tel:11942460084" class="flex items-center gap-1.5 hover:text-gold transition"><i data-lucide="phone" class="w-4 h-4 text-gold"></i> (11) 94246-0084</a>
+            <div class="flex items-center gap-4">
+                <a href="tel:11942460084" class="hover:text-gold transition-colors flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-gold"></i> (11) 94246-0084
+                </a>
             </div>
-            <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Márcio%20Maciel." target="_blank" class="bg-gold hover:bg-gold-dark text-navy font-semibold px-4 py-2.5 rounded-lg text-sm shadow transition flex items-center gap-2">
-                <i data-lucide="message-square" class="w-4 h-4"></i> WhatsApp
-            </a>
         </div>
-    </header>
+    </div>
 
-    <!-- Main Content Container (Single Page / Information United) -->
-    <main class="pt-24 pb-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <!-- Hero / Intro Card -->
-            <div class="bg-navy text-white rounded-2xl shadow-2xl overflow-hidden mb-8 border border-gold/30 relative">
-                <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#C5A059_1px,transparent_1px)] [background-size:16px_16px]"></div>
-                <div class="relative grid grid-cols-1 lg:grid-cols-12 gap-8 p-8 md:p-12 items-center">
-                    
-                    <div class="lg:col-span-7 space-y-6">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-semibold tracking-wider uppercase">
-                            <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Defesa Jurídica Especializada
-                        </div>
-                        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
-                            Atuação Jurídica Rigorosa e Estratégica
-                        </h1>
-                        <p class="text-slate-300 text-base md:text-lg leading-relaxed">
-                            Compromisso absoluto com a defesa dos seus direitos. Atendimento especializado em Direito Criminal, Cível, Família, Trabalhista e Empresarial com seriedade, discrição e excelência técnica em Mogi das Cruzes e região.
-                        </p>
-                        
-                        <!-- Quick Highlights -->
-                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2">
-                            <div class="bg-navy-light/60 p-3 rounded-xl border border-white/10">
-                                <span class="block text-gold font-bold text-xl">Criminal</span>
-                                <span class="text-xs text-slate-300">Especialidade em destaque</span>
-                            </div>
-                            <div class="bg-navy-light/60 p-3 rounded-xl border border-white/10">
-                                <span class="block text-gold font-bold text-xl">Ética</span>
-                                <span class="text-xs text-slate-300">Sigilo e transparência</span>
-                            </div>
-                            <div class="bg-navy-light/60 p-3 rounded-xl border border-white/10 col-span-2 sm:col-span-1">
-                                <span class="block text-gold font-bold text-xl">Agilidade</span>
-                                <span class="text-xs text-slate-300">Suporte humanizado</span>
-                            </div>
-                        </div>
+    <!-- Main Container / Single Page Layout -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-12">
 
-                        <div class="flex flex-wrap gap-4 pt-2">
-                            <a href="https://wa.me/5511942460084?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20atendimento." target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg transition flex items-center gap-2.5">
-                                <i data-lucide="phone-call" class="w-5 h-5"></i> Falar pelo WhatsApp Agora
-                            </a>
-                            <a href="#contato" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-xl border border-white/20 transition flex items-center gap-2">
-                                <i data-lucide="mail" class="w-5 h-5 text-gold"></i> Enviar Mensagem Rápida
-                            </a>
-                        </div>
-                    </div>
+        <!-- Hero / Header Section -->
+        <header class="bg-white rounded-3xl shadow-xl border border-slate-200/80 p-8 sm:p-12 text-center relative overflow-hidden">
+            <!-- Decorative Accent Bar -->
+            <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-navy via-gold to-navy"></div>
 
-                    <!-- Side Profile / Fast Info Badge -->
-                    <div class="lg:col-span-5 bg-navy-dark/80 rounded-xl p-6 border border-gold/20 shadow-xl space-y-6">
-                        <div class="border-b border-white/10 pb-4">
-                            <h3 class="font-bold text-lg text-gold">Dr. Márcio Maciel</h3>
-                            <p class="text-xs text-slate-400">OAB/SP • Advogado Titular</p>
-                        </div>
-                        
-                        <div class="space-y-4 text-sm text-slate-300">
-                            <div class="flex items-start gap-3">
-                                <i data-lucide="map-pin" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
-                                <div>
-                                    <strong class="text-white block">Endereço do Escritório</strong>
-                                    <span>R. José de Carlo, 181 - Vila Lavínia, Mogi das Cruzes - SP</span>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i data-lucide="clock" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
-                                <div>
-                                    <strong class="text-white block">Horário de Atendimento</strong>
-                                    <span>Segunda a Sexta: das 09h às 18h<br><span class="text-xs text-gold">Atendimento criminal de urgência sob consulta</span></span>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i data-lucide="phone" class="w-5 h-5 text-gold flex-shrink-0 mt-0.5"></i>
-                                <div>
-                                    <strong class="text-white block">Contato Direto</strong>
-                                    <span>(11) 94246-0084</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pt-2">
-                            <a href="https://maps.app.goo.gl/ep3UejQp2LRdbQvD9" target="_blank" class="w-full bg-gold/20 hover:bg-gold/30 text-gold border border-gold/40 text-center font-medium py-2.5 rounded-lg text-sm transition flex items-center justify-center gap-2">
-                                <i data-lucide="map" class="w-4 h-4"></i> Ver Localização no Google Maps
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="inline-block bg-navy/5 text-navy font-semibold text-xs sm:text-sm uppercase tracking-widest px-4 py-1.5 rounded-full mb-6 border border-navy/10">
+                Escritório de Advocacia & Consultoria Jurídica
             </div>
 
-            <!-- Unified Content Grid: Áreas de Atuação & Formulário de Contato na mesma tela -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <h1 class="text-3xl sm:text-5xl font-bold text-navy tracking-tight mb-4">
+                Dr. Márcio Maciel
+            </h1>
+            <p class="text-lg sm:text-xl text-gold font-medium mb-6 tracking-wide">
+                Excelência, Ética e Defesa Rigorosa dos seus Direitos
+            </p>
+
+            <p class="text-slate-600 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed mb-8">
+                Atuação jurídica sólida com compromisso absoluto com a justiça e a tranquilidade dos nossos clientes em Mogi das Cruzes e região. Orientação transparente e estratégica para cada caso.
+            </p>
+
+            <!-- Primary WhatsApp CTA -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Márcio%20Maciel." 
+                   target="_blank" 
+                   class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-emerald-600/20 transition-all duration-300 text-base">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Falar com Advogado (WhatsApp)</span>
+                </a>
+                <a href="tel:11942460084" 
+                   class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-navy hover:bg-navy-light text-white font-medium px-6 py-4 rounded-2xl shadow-md transition-all duration-300 text-base">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Ligar Agora</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- About Office Section -->
+        <section class="bg-white rounded-3xl shadow-lg border border-slate-200/80 p-8 sm:p-10">
+            <div class="max-w-3xl mx-auto text-center space-y-4">
+                <h2 class="text-2xl sm:text-3xl font-bold text-navy">Sobre o Escritório</h2>
+                <div class="w-16 h-1 bg-gold mx-auto rounded-full"></div>
+                <p class="text-slate-600 leading-relaxed text-base sm:text-lg pt-2">
+                    Com sede em Mogi das Cruzes, nosso escritório presta serviços de assessoria jurídica preventiva e contenciosa. Prezamos pela excelência técnica, atendimento humanizado e pela busca célere e justa dos melhores resultados para pessoas físicas e empresas.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services / Áreas de Atuação Section -->
+        <section class="space-y-6">
+            <div class="text-center space-y-2">
+                <h2 class="text-2xl sm:text-3xl font-bold text-navy">Áreas de Atuação</h2>
+                <div class="w-16 h-1 bg-gold mx-auto rounded-full"></div>
+                <p class="text-slate-600">Conheça os principais ramos em que oferecemos suporte e representação jurídica:</p>
+            </div>
+
+            <!-- Grid of Services -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
-                <!-- Áreas de Atuação (Left / 7 cols) -->
-                <div class="lg:col-span-7 bg-white rounded-2xl shadow-xl p-8 border border-slate-200 space-y-6">
+                <!-- Service 1: Direito Civil -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-slate-200 hover:border-gold/50 transition-all duration-300 flex flex-col justify-between">
                     <div>
-                        <span class="text-gold uppercase tracking-widest text-xs font-bold block">Especialidades</span>
-                        <h2 class="text-2xl font-bold text-navy">Áreas de Atuação</h2>
-                        <p class="text-slate-600 text-sm mt-1">Soluções jurídicas preventivas e contenciosas elaboradas com rigor técnico.</p>
+                        <div class="w-12 h-12 bg-navy/5 rounded-xl flex items-center justify-center text-navy mb-4 border border-navy/10">
+                            <i class="fa-solid fa-scale-balanced text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy mb-2">Direito Civil</h3>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Resolução de conflitos contratuais, indenizações, responsabilidade civil, ações de cobrança, direito de propriedade, posse e relações de consumo.
+                        </p>
                     </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        
-                        <!-- Direito Criminal (Destaque Principal) -->
-                        <div class="bg-navy/5 border-2 border-gold/40 p-5 rounded-xl hover:shadow-md transition space-y-2 sm:col-span-2">
-                            <div class="flex items-center gap-3">
-                                <div class="w-10 h-10 rounded-lg bg-gold text-navy flex items-center justify-center font-bold">
-                                    <i data-lucide="scale" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-bold text-navy text-lg">Direito Criminal</h3>
-                                    <span class="text-xs text-gold font-semibold uppercase tracking-wider">Atuação Especializada</span>
-                                </div>
-                            </div>
-                            <p class="text-slate-600 text-sm leading-relaxed">
-                                Atuação em inquéritos policiais, audiências de custódia, defesa em ações penales, liberdade provisória, habeas corpus e acompanhamento completo em delegacias e tribunais.
-                            </p>
-                        </div>
-
-                        <!-- Direito Cível -->
-                        <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl hover:border-gold/50 transition space-y-2">
-                            <div class="flex items-center gap-2.5 text-navy font-bold">
-                                <i data-lucide="file-text" class="w-5 h-5 text-gold"></i>
-                                <span>Direito Cível</span>
-                            </div>
-                            <p class="text-slate-600 text-xs leading-relaxed">
-                                Contratos, indenizações, cobranças, responsabilidade civil e solução de litígios patrimoniais.
-                            </p>
-                        </div>
-
-                        <!-- Direito de Família -->
-                        <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl hover:border-gold/50 transition space-y-2">
-                            <div class="flex items-center gap-2.5 text-navy font-bold">
-                                <i data-lucide="users" class="w-5 h-5 text-gold"></i>
-                                <span>Direito de Família</span>
-                            </div>
-                            <p class="text-slate-600 text-xs leading-relaxed">
-                                Divórcios, pensão alimentícia, guarda de menores, inventários, partilhas e regulamentação de visitas.
-                            </p>
-                        </div>
-
-                        <!-- Direito Trabalhista -->
-                        <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl hover:border-gold/50 transition space-y-2">
-                            <div class="flex items-center gap-2.5 text-navy font-bold">
-                                <i data-lucide="briefcase" class="w-5 h-5 text-gold"></i>
-                                <span>Direito Trabalhista</span>
-                            </div>
-                            <p class="text-slate-600 text-xs leading-relaxed">
-                                Defesa dos direitos de empregados e empregadores, reclamações trabalhistas, rescisões e acordos.
-                            </p>
-                        </div>
-
-                        <!-- Direito Empresarial -->
-                        <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl hover:border-gold/50 transition space-y-2">
-                            <div class="flex items-center gap-2.5 text-navy font-bold">
-                                <i data-lucide="building-2" class="w-5 h-5 text-gold"></i>
-                                <span>Direito Empresarial</span>
-                            </div>
-                            <p class="text-slate-600 text-xs leading-relaxed">
-                                Consultoria preventiva para empresas, assessoria societária e contratos comerciais.
-                            </p>
-                        </div>
-
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
+                        <span>Consultoria & Contencioso</span>
+                        <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20Direito%20Civil." target="_blank" class="text-navy hover:text-gold font-semibold flex items-center gap-1">
+                            Saiba mais <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
                     </div>
                 </div>
 
-                <!-- Formulário Rápido de Contato & Conversão (Right / 5 cols) -->
-                <div id="contato" class="lg:col-span-5 bg-navy text-white rounded-2xl shadow-xl p-8 border border-gold/30 flex flex-col justify-between">
+                <!-- Service 2: Direito de Família -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-slate-200 hover:border-gold/50 transition-all duration-300 flex flex-col justify-between">
                     <div>
-                        <span class="text-gold uppercase tracking-widest text-xs font-bold block">Fale Conosco</span>
-                        <h3 class="text-2xl font-bold mt-1">Envie sua Mensagem</h3>
-                        <p class="text-slate-300 text-sm mt-1">Preencha o formulário abaixo ou entre em contato diretamente pelo WhatsApp para agilizar seu atendimento.</p>
-
-                        <form id="contactForm" onsubmit="handleFormSubmit(event)" class="space-y-4 mt-6">
-                            <div>
-                                <label class="block text-xs font-medium text-slate-300 mb-1">Seu Nome</label>
-                                <input type="text" id="nome" required placeholder="Nome completo" class="w-full bg-navy-dark border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-gold transition">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-slate-300 mb-1">Telefone / WhatsApp</label>
-                                <input type="tel" id="telefone" required placeholder="(11) 99999-9999" class="w-full bg-navy-dark border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-gold transition">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-slate-300 mb-1">Área de Interesse</label>
-                                <select id="area" class="w-full bg-navy-dark border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold transition">
-                                    <option value="Direito Criminal">Direito Criminal</option>
-                                    <option value="Direito Cível">Direito Cível</option>
-                                    <option value="Direito de Família">Direito de Família</option>
-                                    <option value="Direito Trabalhista">Direito Trabalhista</option>
-                                    <option value="Direito Empresarial">Direito Empresarial</option>
-                                    <option value="Outro / Consulta Geral">Outro / Consulta Geral</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-slate-300 mb-1">Resumo do Caso</label>
-                                <textarea id="mensagem" rows="3" required placeholder="Descreva brevemente sua situação..." class="w-full bg-navy-dark border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-gold transition"></textarea>
-                            </div>
-                            <button type="submit" class="w-full bg-gold hover:bg-gold-dark text-navy font-bold py-3 rounded-lg text-sm shadow transition flex items-center justify-center gap-2">
-                                <i data-lucide="send" class="w-4 h-4"></i> Enviar Mensagem para o WhatsApp
-                            </button>
-                        </form>
+                        <div class="w-12 h-12 bg-navy/5 rounded-xl flex items-center justify-center text-navy mb-4 border border-navy/10">
+                            <i class="fa-solid fa-people-roof text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy mb-2">Direito de Família</h3>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Acompanhamento sensível e técnico em divórcios, guarda de filhos, regulamentação de visitas, pensão alimentícia, inventários e partilhas de bens.
+                        </p>
                     </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
+                        <span>Acordos & Ações Judiciais</span>
+                        <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20Direito%20de%20Família." target="_blank" class="text-navy hover:text-gold font-semibold flex items-center gap-1">
+                            Saiba mais <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
 
-                    <div id="formSuccessMessage" class="hidden mt-4 p-3 bg-emerald-900/50 border border-emerald-500 text-emerald-200 text-xs rounded-lg text-center">
-                        Redirecionando para o WhatsApp com suas informações...
+                <!-- Service 3: Direito Trabalhista -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-slate-200 hover:border-gold/50 transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-navy/5 rounded-xl flex items-center justify-center text-navy mb-4 border border-navy/10">
+                            <i class="fa-solid fa-briefcase text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy mb-2">Direito Trabalhista</h3>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Defesa dos direitos de empregados e empregadores, reclamações trabalhistas, rescisões, horas extras, verbas rescisórias e dissídios.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
+                        <span>Defesa Trabalhista</span>
+                        <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20Direito%20Trabalhista." target="_blank" class="text-navy hover:text-gold font-semibold flex items-center gap-1">
+                            Saiba mais <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Direito Criminal -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-slate-200 hover:border-gold/50 transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-navy/5 rounded-xl flex items-center justify-center text-navy mb-4 border border-navy/10">
+                            <i class="fa-solid fa-gavel text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy mb-2">Direito Criminal</h3>
+                        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Atuação criminal estratégica, acompanhamento em delegacias, habeas corpus, defesa em inquéritos policiais e ações penais em todas as instâncias.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
+                        <span>Atendimento e Defesa Penal</span>
+                        <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20Direito%20Criminal." target="_blank" class="text-navy hover:text-gold font-semibold flex items-center gap-1">
+                            Saiba mais <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
                     </div>
                 </div>
 
             </div>
+        </section>
 
-        </div>
+        <!-- Contact & Location Info Section -->
+        <section class="bg-white rounded-3xl shadow-lg border border-slate-200/80 p-8 sm:p-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                
+                <div class="space-y-6">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-bold text-navy mb-2">Localização & Contato</h2>
+                        <div class="w-16 h-1 bg-gold rounded-full mb-4"></div>
+                        <p class="text-slate-600">
+                            Venha nos fazer uma visita ou entre em contato pelos nossos canais oficiais para agendar seu atendimento.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-navy/5 rounded-xl flex items-center justify-center text-navy shrink-0 border border-navy/10 mt-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-navy">Endereço</h4>
+                                <p class="text-slate-600 text-sm">R. José de Carlo, 181 - Vila Lavinia<br>Mogi das Cruzes - SP, 08733-310</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-navy/5 rounded-xl flex items-center justify-center text-navy shrink-0 border border-navy/10 mt-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-navy">Telefone / WhatsApp</h4>
+                                <p class="text-slate-600 text-sm">(11) 94246-0084</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-navy/5 rounded-xl flex items-center justify-center text-navy shrink-0 border border-navy/10 mt-1">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-navy">Horário de Atendimento</h4>
+                                <p class="text-slate-600 text-sm">Segunda a Sexta-feira: 09:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive / Direct WhatsApp Card Box -->
+                <div class="bg-navy-dark text-white rounded-2xl p-6 sm:p-8 flex flex-col justify-between space-y-6 border border-gold/30">
+                    <div class="space-y-3">
+                        <span class="inline-block bg-gold/20 text-gold text-xs px-3 py-1 rounded-full font-semibold">Atendimento Rápido</span>
+                        <h3 class="text-xl font-bold">Precisa de orientações jurídicas imediatas?</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Clique no botão abaixo para iniciar uma conversa direto no WhatsApp com o escritório Dr. Márcio Maciel.
+                        </p>
+                    </div>
+
+                    <a href="https://wa.me/5511942460084?text=Olá,%20gostaria%20de%20tirar%20uma%20dúvida%20jurídica." 
+                       target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-4 rounded-xl shadow-lg transition-all duration-300">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                        <span>Iniciar Conversa no WhatsApp</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="text-center text-slate-500 text-xs sm:text-sm py-6 border-t border-slate-200">
+            <p class="font-medium text-navy">Dr. Márcio Maciel — Advocacia</p>
+            <p class="mt-1">R. José de Carlo, 181 - Vila Lavinia, Mogi das Cruzes - SP</p>
+            <p class="mt-3 text-slate-400">© 2026 Todos os direitos reservados.</p>
+        </footer>
+
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-navy-dark text-slate-400 text-xs py-8 border-t border-white/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-            <div>
-                <p class="font-bold text-white text-sm">Dr. Márcio Maciel — Advocacia & Consultoria</p>
-                <p class="mt-1">R. José de Carlo, 181 - Vila Lavínia, Mogi das Cruzes - SP</p>
-            </div>
-            <div>
-                <p>&copy; 2026 Dr. Márcio Maciel. Todos os direitos reservados.</p>
-                <p class="mt-1 text-slate-500">Atendimento com ética, discrição e excelência.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Initialize Lucide Icons & Form Script -->
-    <script>
-        lucide.createIcons();
-
-        function handleFormSubmit(event) {
-            event.preventDefault();
-            const nome = document.getElementById('nome').value;
-            const telefone = document.getElementById('telefone').value;
-            const area = document.getElementById('area').value;
-            const mensagem = document.getElementById('mensagem').value;
-
-            const text = `Olá, meu nome é *${nome}* (Tel: ${telefone}). Gostaria de atendimento na área de *${area}*. Mensagem: ${mensagem}`;
-            const encodedText = encodeURIComponent(text);
-            
-            const successBox = document.getElementById('formSuccessMessage');
-            successBox.classList.remove('hidden');
-
-            setTimeout(() => {
-                window.open(`https://wa.me/5511942460084?text=${encodedText}`, '_blank');
-            }, 800);
-        }
-    </script>
 </body>
 </html>
